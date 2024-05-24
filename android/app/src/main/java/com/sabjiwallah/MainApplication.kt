@@ -21,6 +21,9 @@ class MainApplication : Application(), ReactApplication {
               // add(MyReactNativePackage())
             }
 
+ override fun getJSBundleFile(): String {
+            return CodePush.getJSBundleFile() 
+        }
         override fun getJSMainModuleName(): String = "index"
 
         override fun getUseDeveloperSupport(): Boolean = BuildConfig.DEBUG
