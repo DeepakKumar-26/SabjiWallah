@@ -1,4 +1,4 @@
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import Home from './Home';
 import {useNavigation} from '@react-navigation/native';
@@ -25,6 +25,10 @@ export default function StartScreen() {
   };
   return (
     <View>
+      {/* <Image
+        source={require('../assets/image.webp')}
+        style={{height: 100, width: 100}}
+      /> */}
       {screens.map((screen, index) => {
         return (
           <TouchableOpacity
