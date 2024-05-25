@@ -38,7 +38,7 @@ export default function StartScreen() {
               height: 50,
               justifyContent: 'center',
               alignItems: 'center',
-              backgroundColor: 'teal',
+              backgroundColor: 'cyan',
               margin: 5,
               borderRadius: 5,
             }}>
